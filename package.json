@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "npm run build2 && npm run build1",
-    "build1": "ttsc -b src/project1",
-    "build2": "ttsc -b src/project2"
+    "build1": "ttsc -b project1",
+    "build2": "ttsc -b project2"
   }
 }
