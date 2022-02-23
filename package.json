@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "tst-reflect": "^0.7.3",
+    "tst-reflect-transformer": "^0.9.3"
+  },
+  "devDependencies": {
+    "ttypescript": "^1.5.13"
+  },
+  "scripts": {
+    "build": "npm run build1 && npm run build2",
+    "build1": "ttsc -b src/project1",
+    "build2": "ttsc -b src/project2"
+  }
+}

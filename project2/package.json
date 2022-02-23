@@ -1,0 +1,9 @@
+{
+  "name": "test-project-2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  
+  "scripts": {
+    "build": "ttsc -b"
+  }
+}
